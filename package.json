@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My new Decentraland project",
   "scripts": {
-    "start": "CI=true dcl start --desktop-client -p ${PORT:=8000}",
+    "start": "dcl start",
     "build": "build-ecs",
     "watch": "build-ecs --watch",
     "ecs:install": "npm install --save-dev decentraland-ecs@latest",
